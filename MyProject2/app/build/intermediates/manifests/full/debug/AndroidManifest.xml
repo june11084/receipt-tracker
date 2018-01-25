@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jun.myproject"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="25" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.jun.myproject.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jun.myproject.ButtonsActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.jun.myproject.Grocery"
+            android:label="@string/string_grocery" >
+        </activity>
+        <activity
+            android:name="com.jun.myproject.Gasoline"
+            android:label="@string/string_gas" >
+        </activity>
+        <activity
+            android:name="com.jun.myproject.Rent"
+            android:label="@string/string_Rent_mortage" >
+        </activity>
+        <activity
+            android:name="com.jun.myproject.Electricity"
+            android:label="Electricity" >
+        </activity>
+        <activity
+            android:name="com.jun.myproject.Entertainment"
+            android:label="Entertainment" >
+        </activity>
+        <activity
+            android:name="com.jun.myproject.Loans"
+            android:label="Loans" >
+        </activity>
+        <activity
+            android:name="com.jun.myproject.Maintenance"
+            android:label="Maintenance" >
+        </activity>
+        <activity
+            android:name="com.jun.myproject.Restaurant"
+            android:label="Restaurant" >
+        </activity>
+        <activity
+            android:name="com.jun.myproject.Insurance"
+            android:label="Insurance" >
+        </activity>
+    </application>
+
+</manifest>
